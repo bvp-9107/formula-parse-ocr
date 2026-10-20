@@ -3,6 +3,8 @@ FROM node:22-bookworm-slim
 
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
+ENV HF_ENDPOINT=https://huggingface.co
+ENV HUGGINGFACE_HUB_CACHE=/opt/huggingface
 
 # Install Python and Linux libraries required by OpenCV.
 RUN apt-get update && apt-get install -y --no-install-recommends \
