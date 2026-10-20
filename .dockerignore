@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+.git/
+ocr-service/.venv/
+ocr-service/**/__pycache__/
+*.bak
+ocr-service/test_formula.png

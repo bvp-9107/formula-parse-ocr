@@ -1,0 +1,27 @@
+node_modules/
+dist/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+
+# Python virtual environments and caches
+ocr-service/.venv/
+ocr-service/**/__pycache__/
+
+# Local backups
+*.bak
+
+# Local test images
+ocr-service/test_formula.png
+
+build-log.txt
+
+*.backup
+*.before-gemini-cleanup
